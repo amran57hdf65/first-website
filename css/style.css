@@ -1,0 +1,75 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/* Name selector */
+body{
+    background-color: purple;
+    color: white;
+}
+/* Id selector */ 
+#admin-box{
+    width: 50%;
+    border: 2px solid;
+    margin: 10% auto;
+    text-align: center;
+    padding: 20px;
+}
+/* Combinetor selector */
+#admin-box h1{
+    font-size: 35px;
+    line-height: 35px;
+    margin: 10px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Grouping selector */
+input,label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+input{
+    background-color: transparent;
+    border: 2px solid;
+    color: white;
+}
+/* Attribute selector */
+input[type="submit"]{
+    margin: 15px auto;
+}
+/* Psudo class selector */
+input:focus{
+    background-color: white;
+    color: purple;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: purple;
+}
+/* Psudo elements selector */
+input::placeholder {
+    color: white;
+}
+/* class selector */
+.pg{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* class selector */
+.pg a{
+    text-transform: uppercase;
+    color: aqua;
+    text-decoration: none;
+}
+/* For register page */
